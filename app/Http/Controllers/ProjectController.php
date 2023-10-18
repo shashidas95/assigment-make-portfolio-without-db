@@ -23,7 +23,7 @@ class ProjectController extends Controller
             }
         }
         if ($selectedProject) {
-            return view('components.project', compact('selectedProject'));
+            return view('components.project-details', compact('selectedProject'));
         }
     }
 }
